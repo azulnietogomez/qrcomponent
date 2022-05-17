@@ -1,0 +1,31 @@
+:root {
+
+/*--WIDTHS--*/
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+/*--COLORS--*/
+    --just-white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(228, 44%, 22%);
+
+/*--TYPOGRAPHY--*/
+    --body-size-p: 1.4rem;
+    --principal-font: 'Outfit', sans-serif; 
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--principal-font);
+}
+
+a {
+    text-decoration: none;
+}
